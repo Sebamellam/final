@@ -14,6 +14,16 @@ export default function Footer() {
                             </a>
                         </div>
                         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div className="ml-3 md:ml-0">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.461769536567!2d-70.60928648434144!3d-33.43537748085912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c61d5a127c07%3A0xc1aaddc9d4c9471c!2sYour%20Business%20Location!5e0!3m2!1sen!2sus!4v1632156636231!5m2!1sen!2sus"
+                                    width="100%"
+                                    height="300"
+                                    style={{ border: 0 }}
+                                    allowFullScreen=""
+                                    loading="lazy"
+                                ></iframe>
+                            </div>
                             <div>
                                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Visitanos</h2>
                                 <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -44,16 +54,6 @@ export default function Footer() {
                                         <a href="#" class="hover:underline">Términos y condiciones</a>
                                     </li>
                                 </ul>
-                            </div>
-                            <div className="ml-3 md:ml-0">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.461769536567!2d-70.60928648434144!3d-33.43537748085912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c61d5a127c07%3A0xc1aaddc9d4c9471c!2sYour%20Business%20Location!5e0!3m2!1sen!2sus!4v1632156636231!5m2!1sen!2sus"
-                                    width="150%"
-                                    height="400"
-                                    style={{ border: 0 }}
-                                    allowFullScreen=""
-                                    loading="lazy"
-                                ></iframe>
                             </div>
                         </div>
                     </div>
